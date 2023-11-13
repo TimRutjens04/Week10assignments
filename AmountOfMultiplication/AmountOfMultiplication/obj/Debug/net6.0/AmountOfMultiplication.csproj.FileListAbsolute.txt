@@ -1,0 +1,14 @@
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\bin\Debug\net6.0\AmountOfMultiplication.exe
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\bin\Debug\net6.0\AmountOfMultiplication.deps.json
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\bin\Debug\net6.0\AmountOfMultiplication.runtimeconfig.json
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\bin\Debug\net6.0\AmountOfMultiplication.dll
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\bin\Debug\net6.0\AmountOfMultiplication.pdb
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\AmountOfMultiplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\AmountOfMultiplication.AssemblyInfoInputs.cache
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\AmountOfMultiplication.AssemblyInfo.cs
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\AmountOfMultiplication.csproj.CoreCompileInputs.cache
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\AmountOfMultiplication.dll
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\refint\AmountOfMultiplication.dll
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\AmountOfMultiplication.pdb
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\AmountOfMultiplication.genruntimeconfig.cache
+C:\Users\timru\source\repos\practice-assignments week10\AmountOfMultiplication\AmountOfMultiplication\obj\Debug\net6.0\ref\AmountOfMultiplication.dll
