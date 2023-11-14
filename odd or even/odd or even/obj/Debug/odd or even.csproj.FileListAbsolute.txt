@@ -1,7 +1,0 @@
-C:\Users\timru\source\repos\practice-assignments week10\odd or even\odd or even\obj\Debug\odd or even.csproj.AssemblyReference.cache
-C:\Users\timru\source\repos\practice-assignments week10\odd or even\odd or even\obj\Debug\odd or even.csproj.CoreCompileInputs.cache
-C:\Users\timru\source\repos\practice-assignments week10\odd or even\odd or even\bin\Debug\odd or even.exe.config
-C:\Users\timru\source\repos\practice-assignments week10\odd or even\odd or even\bin\Debug\odd or even.exe
-C:\Users\timru\source\repos\practice-assignments week10\odd or even\odd or even\bin\Debug\odd or even.pdb
-C:\Users\timru\source\repos\practice-assignments week10\odd or even\odd or even\obj\Debug\odd or even.exe
-C:\Users\timru\source\repos\practice-assignments week10\odd or even\odd or even\obj\Debug\odd or even.pdb
