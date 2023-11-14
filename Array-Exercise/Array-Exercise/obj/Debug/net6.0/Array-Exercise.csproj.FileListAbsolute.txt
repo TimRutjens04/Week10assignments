@@ -12,3 +12,17 @@ C:\Users\timru\source\repos\practice-assignments week10\Array-Exercise\Array-Exe
 C:\Users\timru\source\repos\practice-assignments week10\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.pdb
 C:\Users\timru\source\repos\practice-assignments week10\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.genruntimeconfig.cache
 C:\Users\timru\source\repos\practice-assignments week10\Array-Exercise\Array-Exercise\obj\Debug\net6.0\ref\Array-Exercise.dll
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\bin\Debug\net6.0\Array-Exercise.exe
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\bin\Debug\net6.0\Array-Exercise.deps.json
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\bin\Debug\net6.0\Array-Exercise.runtimeconfig.json
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\bin\Debug\net6.0\Array-Exercise.dll
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\bin\Debug\net6.0\Array-Exercise.pdb
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.AssemblyInfoInputs.cache
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.AssemblyInfo.cs
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.csproj.CoreCompileInputs.cache
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.dll
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\refint\Array-Exercise.dll
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.pdb
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\Array-Exercise.genruntimeconfig.cache
+C:\Users\timru\source\repos\TimRutjens04\Week10assignments\Array-Exercise\Array-Exercise\obj\Debug\net6.0\ref\Array-Exercise.dll
