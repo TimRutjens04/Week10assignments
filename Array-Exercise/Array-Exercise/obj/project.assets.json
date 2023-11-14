@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timru\\source\\repos\\TimRutjens04\\Week10assignments\\Array-Exercise\\Array-Exercise\\Array-Exercise.csproj",
-      "projectName": "Array-Exercise",
-      "projectPath": "C:\\Users\\timru\\source\\repos\\TimRutjens04\\Week10assignments\\Array-Exercise\\Array-Exercise\\Array-Exercise.csproj",
+      "projectUniqueName": "C:\\Users\\timru\\source\\repos\\TimRutjens04\\Week10assignments\\Array-Exercise\\Array-Exercise\\ArrayExercise.csproj",
+      "projectName": "ArrayExercise",
+      "projectPath": "C:\\Users\\timru\\source\\repos\\TimRutjens04\\Week10assignments\\Array-Exercise\\Array-Exercise\\ArrayExercise.csproj",
       "packagesPath": "C:\\Users\\timru\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\timru\\source\\repos\\TimRutjens04\\Week10assignments\\Array-Exercise\\Array-Exercise\\obj\\",
       "projectStyle": "PackageReference",
