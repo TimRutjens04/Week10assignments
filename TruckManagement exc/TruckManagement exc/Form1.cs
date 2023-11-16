@@ -17,60 +17,63 @@ namespace TruckManagement_exc
 
         }
 
-        private void btnCalculate_Click(object sender, EventArgs e)
+        private void btnCalculate_Click_1(object sender, EventArgs e)
         {
-            // Parse user input
-            if (int.TryParse(maxPalletA.Text, out int numPallets) && int.TryParse(maxBoxA.Text, out int boxesPerPallet))
+            //Initialize variables
+            string truckType = "A";
+            int numPallets = 0;
+            int boxesPerPallet = 0;
+            int fullTrucks = 0;
+            int fullPalletsOnNonFullTruck = 0;
+            int boxesOnPartialPallet = 0;
+            int numBoxes = 0;
+            int.TryParse(tbBoxesShipped.Text, out numBoxes);
+
+            if (rbB.Checked)
             {
-                // Calculate total number of boxes
-                int numBoxes = numPallets * boxesPerPallet;
-
-                // Initialize variables for results
-                int fullTrucks = 0;
-                int fullPalletsOnNonFullTruck = 0;
-                int boxesOnPartialPallet = 0;
-
-                // Determine truck type based on radio buttons
-                string truckType = "A";
-                if (rbB.Checked)
-                {
-                    truckType = "B";
-                }
-                else if (rbC.Checked)
-                {
-                    truckType = "C";
-                }
-
-                // Calculate based on the selected truck type
-                switch (truckType)
-                {
-                    case "A":
-                    case "B":
-                    case "C":
-                        fullTrucks = numBoxes / (numPallets * boxesPerPallet);
-                        break;
-                }
-
-                // Calculate remaining boxes for non-full truck
-                int remainingBoxes = numBoxes % (numPallets * boxesPerPallet);
-
-                // Calculate full pallets for non-full truck
-                fullPalletsOnNonFullTruck = remainingBoxes / boxesPerPallet;
-
-                // Calculate boxes on the non-full pallet
-                boxesOnPartialPallet = remainingBoxes % boxesPerPallet;
-
-                // Display results
-                MessageBox.Show($"Full Trucks: {fullTrucks}");
-                MessageBox.Show($"Full Pallets on Non-Full Truck: {fullPalletsOnNonFullTruck}");
-                MessageBox.Show($"Boxes on Non-Full Pallet: {boxesOnPartialPallet}");
+                // Calculate for truck type B
+                truckType = "B";
+                int.TryParse(maxPalletB.Text, out numPallets);
+                int.TryParse(maxBoxB.Text, out boxesPerPallet);
+            }
+            else if (rbC.Checked)
+            {
+                // Calculate for truck type C
+                truckType = "C";
+                int.TryParse(maxPalletC.Text, out numPallets);
+                int.TryParse(maxBoxC.Text, out boxesPerPallet);
             }
             else
             {
-                MessageBox.Show("Please enter valid numbers for the number of pallets and boxes per pallet.");
+                // Calculate for truck type A
+                int.TryParse(maxPalletA.Text, out numPallets);
+                int.TryParse(maxBoxA.Text, out boxesPerPallet);
             }
+
+            // Perform common calculations
+            fullTrucks = numBoxes / (numPallets * boxesPerPallet);
+            int remainingBoxes = numBoxes % (numPallets * boxesPerPallet);
+            fullPalletsOnNonFullTruck = remainingBoxes / boxesPerPallet;
+            boxesOnPartialPallet = remainingBoxes % boxesPerPallet;
+
+            // Construct the result string with line breaks
+            string resultMessage = $"Full Trucks: {fullTrucks}\n" +
+                                   $"Full Pallets on Non-Full Truck: {fullPalletsOnNonFullTruck}\n" +
+                                   $"Boxes on Non-Full Pallet: {boxesOnPartialPallet}\n" +
+                                   $"Truck type: {truckType}";
+
+            // Display the results in a single MessageBox
+            MessageBox.Show(resultMessage);
         }
 
 
+        
+
     }
 }
+
+
+
+
+    
+

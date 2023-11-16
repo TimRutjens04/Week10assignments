@@ -48,7 +48,7 @@
             rbB = new RadioButton();
             rbA = new RadioButton();
             label7 = new Label();
-            textBox1 = new TextBox();
+            tbBoxesShipped = new TextBox();
             btnCalculate = new Button();
             gbA.SuspendLayout();
             gbB.SuspendLayout();
@@ -62,9 +62,11 @@
             gbA.Controls.Add(label1);
             gbA.Controls.Add(maxBoxA);
             gbA.Controls.Add(maxPalletA);
-            gbA.Location = new Point(12, 12);
+            gbA.Location = new Point(17, 20);
+            gbA.Margin = new Padding(4, 5, 4, 5);
             gbA.Name = "gbA";
-            gbA.Size = new Size(248, 137);
+            gbA.Padding = new Padding(4, 5, 4, 5);
+            gbA.Size = new Size(354, 228);
             gbA.TabIndex = 0;
             gbA.TabStop = false;
             gbA.Text = "Info about Truck A";
@@ -72,33 +74,37 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(6, 82);
+            label4.Location = new Point(9, 137);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(122, 15);
+            label4.Size = new Size(184, 25);
             label4.TabIndex = 1;
             label4.Text = "Max. boxes per pallet:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(6, 48);
+            label1.Location = new Point(9, 80);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(123, 15);
+            label1.Size = new Size(184, 25);
             label1.TabIndex = 1;
             label1.Text = "Max. pallets per truck:\r\n";
             // 
             // maxBoxA
             // 
-            maxBoxA.Location = new Point(140, 74);
+            maxBoxA.Location = new Point(200, 123);
+            maxBoxA.Margin = new Padding(4, 5, 4, 5);
             maxBoxA.Name = "maxBoxA";
-            maxBoxA.Size = new Size(108, 23);
+            maxBoxA.Size = new Size(153, 31);
             maxBoxA.TabIndex = 5;
             // 
             // maxPalletA
             // 
-            maxPalletA.Location = new Point(140, 45);
+            maxPalletA.Location = new Point(200, 75);
+            maxPalletA.Margin = new Padding(4, 5, 4, 5);
             maxPalletA.Name = "maxPalletA";
-            maxPalletA.Size = new Size(108, 23);
+            maxPalletA.Size = new Size(153, 31);
             maxPalletA.TabIndex = 4;
             maxPalletA.TextChanged += textBox2_TextChanged;
             // 
@@ -108,9 +114,11 @@
             gbB.Controls.Add(label3);
             gbB.Controls.Add(maxBoxB);
             gbB.Controls.Add(maxPalletB);
-            gbB.Location = new Point(12, 155);
+            gbB.Location = new Point(17, 258);
+            gbB.Margin = new Padding(4, 5, 4, 5);
             gbB.Name = "gbB";
-            gbB.Size = new Size(248, 137);
+            gbB.Padding = new Padding(4, 5, 4, 5);
+            gbB.Size = new Size(354, 228);
             gbB.TabIndex = 1;
             gbB.TabStop = false;
             gbB.Text = "Info about Truck B";
@@ -118,33 +126,37 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(6, 77);
+            label6.Location = new Point(9, 128);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(122, 15);
+            label6.Size = new Size(184, 25);
             label6.TabIndex = 7;
             label6.Text = "Max. boxes per pallet:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(6, 48);
+            label3.Location = new Point(9, 80);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(123, 15);
+            label3.Size = new Size(184, 25);
             label3.TabIndex = 5;
             label3.Text = "Max. pallets per truck:\r\n";
             // 
             // maxBoxB
             // 
-            maxBoxB.Location = new Point(140, 74);
+            maxBoxB.Location = new Point(200, 123);
+            maxBoxB.Margin = new Padding(4, 5, 4, 5);
             maxBoxB.Name = "maxBoxB";
-            maxBoxB.Size = new Size(108, 23);
+            maxBoxB.Size = new Size(153, 31);
             maxBoxB.TabIndex = 4;
             // 
             // maxPalletB
             // 
-            maxPalletB.Location = new Point(140, 45);
+            maxPalletB.Location = new Point(200, 75);
+            maxPalletB.Margin = new Padding(4, 5, 4, 5);
             maxPalletB.Name = "maxPalletB";
-            maxPalletB.Size = new Size(108, 23);
+            maxPalletB.Size = new Size(153, 31);
             maxPalletB.TabIndex = 5;
             // 
             // gbC
@@ -153,9 +165,11 @@
             gbC.Controls.Add(label2);
             gbC.Controls.Add(maxBoxC);
             gbC.Controls.Add(maxPalletC);
-            gbC.Location = new Point(12, 301);
+            gbC.Location = new Point(17, 502);
+            gbC.Margin = new Padding(4, 5, 4, 5);
             gbC.Name = "gbC";
-            gbC.Size = new Size(248, 137);
+            gbC.Padding = new Padding(4, 5, 4, 5);
+            gbC.Size = new Size(354, 228);
             gbC.TabIndex = 1;
             gbC.TabStop = false;
             gbC.Text = "Info about Truck C";
@@ -163,33 +177,37 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(6, 73);
+            label5.Location = new Point(9, 122);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(122, 15);
+            label5.Size = new Size(184, 25);
             label5.TabIndex = 6;
             label5.Text = "Max. boxes per pallet:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(6, 44);
+            label2.Location = new Point(9, 73);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(123, 15);
+            label2.Size = new Size(184, 25);
             label2.TabIndex = 4;
             label2.Text = "Max. pallets per truck:\r\n";
             // 
             // maxBoxC
             // 
-            maxBoxC.Location = new Point(140, 70);
+            maxBoxC.Location = new Point(200, 117);
+            maxBoxC.Margin = new Padding(4, 5, 4, 5);
             maxBoxC.Name = "maxBoxC";
-            maxBoxC.Size = new Size(108, 23);
+            maxBoxC.Size = new Size(153, 31);
             maxBoxC.TabIndex = 4;
             // 
             // maxPalletC
             // 
-            maxPalletC.Location = new Point(140, 41);
+            maxPalletC.Location = new Point(200, 68);
+            maxPalletC.Margin = new Padding(4, 5, 4, 5);
             maxPalletC.Name = "maxPalletC";
-            maxPalletC.Size = new Size(108, 23);
+            maxPalletC.Size = new Size(153, 31);
             maxPalletC.TabIndex = 5;
             // 
             // gbOrder
@@ -198,10 +216,12 @@
             gbOrder.Controls.Add(rbB);
             gbOrder.Controls.Add(rbA);
             gbOrder.Controls.Add(label7);
-            gbOrder.Controls.Add(textBox1);
-            gbOrder.Location = new Point(294, 12);
+            gbOrder.Controls.Add(tbBoxesShipped);
+            gbOrder.Location = new Point(420, 20);
+            gbOrder.Margin = new Padding(4, 5, 4, 5);
             gbOrder.Name = "gbOrder";
-            gbOrder.Size = new Size(494, 155);
+            gbOrder.Padding = new Padding(4, 5, 4, 5);
+            gbOrder.Size = new Size(706, 258);
             gbOrder.TabIndex = 2;
             gbOrder.TabStop = false;
             gbOrder.Text = "Info about Order";
@@ -209,9 +229,10 @@
             // rbC
             // 
             rbC.AutoSize = true;
-            rbC.Location = new Point(221, 119);
+            rbC.Location = new Point(316, 198);
+            rbC.Margin = new Padding(4, 5, 4, 5);
             rbC.Name = "rbC";
-            rbC.Size = new Size(64, 19);
+            rbC.Size = new Size(93, 29);
             rbC.TabIndex = 7;
             rbC.TabStop = true;
             rbC.Text = "Truck C";
@@ -220,9 +241,10 @@
             // rbB
             // 
             rbB.AutoSize = true;
-            rbB.Location = new Point(221, 94);
+            rbB.Location = new Point(316, 157);
+            rbB.Margin = new Padding(4, 5, 4, 5);
             rbB.Name = "rbB";
-            rbB.Size = new Size(63, 19);
+            rbB.Size = new Size(92, 29);
             rbB.TabIndex = 6;
             rbB.TabStop = true;
             rbB.Text = "Truck B";
@@ -231,9 +253,10 @@
             // rbA
             // 
             rbA.AutoSize = true;
-            rbA.Location = new Point(221, 69);
+            rbA.Location = new Point(316, 115);
+            rbA.Margin = new Padding(4, 5, 4, 5);
             rbA.Name = "rbA";
-            rbA.Size = new Size(64, 19);
+            rbA.Size = new Size(94, 29);
             rbA.TabIndex = 5;
             rbA.TabStop = true;
             rbA.Text = "Truck A";
@@ -242,38 +265,43 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(132, 45);
+            label7.Location = new Point(189, 75);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(152, 15);
+            label7.Size = new Size(234, 25);
             label7.TabIndex = 4;
             label7.Text = "No. of boxes to be shipped:\r\n";
             // 
-            // textBox1
+            // tbBoxesShipped
             // 
-            textBox1.Location = new Point(301, 42);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(108, 23);
-            textBox1.TabIndex = 0;
+            tbBoxesShipped.Location = new Point(430, 70);
+            tbBoxesShipped.Margin = new Padding(4, 5, 4, 5);
+            tbBoxesShipped.Name = "tbBoxesShipped";
+            tbBoxesShipped.Size = new Size(153, 31);
+            tbBoxesShipped.TabIndex = 0;
             // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(294, 195);
+            btnCalculate.Location = new Point(420, 325);
+            btnCalculate.Margin = new Padding(4, 5, 4, 5);
             btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(494, 52);
+            btnCalculate.Size = new Size(706, 87);
             btnCalculate.TabIndex = 3;
             btnCalculate.Text = "Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click_1;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(805, 450);
+            ClientSize = new Size(1150, 750);
             Controls.Add(btnCalculate);
             Controls.Add(gbOrder);
             Controls.Add(gbC);
             Controls.Add(gbB);
             Controls.Add(gbA);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
             gbA.ResumeLayout(false);
@@ -315,6 +343,6 @@
         private RadioButton rbB;
         private RadioButton rbA;
         private Label label7;
-        private TextBox textBox1;
+        private TextBox tbBoxesShipped;
     }
 }
