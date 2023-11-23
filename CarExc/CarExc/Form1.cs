@@ -2,7 +2,10 @@ namespace CarExc
 {
     public partial class Form1 : Form
     {
-        int currentSpeed = 0;
+        private int currentSpeed = 0;
+        private int maxSpeed;
+        private int accelerate;
+        private int braking;
         public Form1()
         {
             InitializeComponent();
@@ -55,7 +58,7 @@ namespace CarExc
 
         private void rbFiat_CheckedChanged(object sender, EventArgs e)
         {
-            int maxSpeed = 170;
+            int maxSpeed = 168;
             lblTopSpeed.Text = maxSpeed.ToString();
         }
 
@@ -63,6 +66,35 @@ namespace CarExc
         {
             int maxSpeed = 150;
             lblTopSpeed.Text = maxSpeed.ToString();
+        }
+
+        private void btnBrake_Click(object sender, EventArgs e)
+        {
+            int maxSpeed = 0;
+            int braking = 0;
+            
+            if (rbFerrari.Checked)
+            {
+                maxSpeed = 300;
+                braking = 30;                
+            }
+            else if (rbFiat.Checked)
+            {
+                maxSpeed = 168;
+                braking = 20;
+            }
+            else if (rbSaab.Checked)
+            {
+                maxSpeed = 150;
+                braking = 18; 
+            }
+            else MessageBox.Show("Please select a brand.");
+            if (currentSpeed == 0) { MessageBox.Show("You are currently standing still"); }
+            else { currentSpeed = currentSpeed - braking; }
+            lblCurrentSpeed.Text = currentSpeed.ToString();
+            pbSpeed.Value = Math.Min(currentSpeed, maxSpeed);
+            if (currentSpeed < braking ) { currentSpeed = 0; }
+            else { currentSpeed -= 0; }
         }
     }
     /* 
