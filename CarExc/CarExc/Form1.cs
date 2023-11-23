@@ -72,11 +72,11 @@ namespace CarExc
         {
             int maxSpeed = 0;
             int braking = 0;
-            
+
             if (rbFerrari.Checked)
             {
                 maxSpeed = 300;
-                braking = 30;                
+                braking = 30;
             }
             else if (rbFiat.Checked)
             {
@@ -86,16 +86,31 @@ namespace CarExc
             else if (rbSaab.Checked)
             {
                 maxSpeed = 150;
-                braking = 18; 
+                braking = 18;
             }
-            else MessageBox.Show("Please select a brand.");
-            if (currentSpeed == 0) { MessageBox.Show("You are currently standing still"); }
-            else { currentSpeed = currentSpeed - braking; }
-            lblCurrentSpeed.Text = currentSpeed.ToString();
-            pbSpeed.Value = Math.Min(currentSpeed, maxSpeed);
-            if (currentSpeed < braking ) { currentSpeed = 0; }
-            else { currentSpeed -= 0; }
+            else
+            {
+                MessageBox.Show("Please select a brand.");
+            }
+
+            if (currentSpeed == 0)
+            {
+                MessageBox.Show("You are currently standing still");
+            }
+            else
+            {
+                currentSpeed = currentSpeed - braking;
+
+                if (currentSpeed < braking)
+                {
+                    currentSpeed = 0;
+                }
+
+                lblCurrentSpeed.Text = currentSpeed.ToString();
+                pbSpeed.Value = Math.Max(0, Math.Min(currentSpeed, maxSpeed));
+            }
         }
+
     }
     /* 
      Going to use radiobuttons to select 3 different brands of cars: Ferrari, Fiat, Saab. Ferrari acc = 20km br 30km, Fiat acc=12km br 20km, saab acc =10km br=18km
