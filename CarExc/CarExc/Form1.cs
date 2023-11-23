@@ -35,7 +35,7 @@ namespace CarExc
             else if (rbSaab.Checked)
             {
                 maxSpeed = 150;
-                accelerate = 10;
+                accelerate = 15;
                 //braking = 18;
                 lblTopSpeed.Text = maxSpeed.ToString();
             }
@@ -52,18 +52,24 @@ namespace CarExc
 
         private void rbFerrari_CheckedChanged(object sender, EventArgs e)
         {
+            //lblCurrentSpeed.Text = Convert.ToString(0);
+            currentSpeed = 0;
             int maxSpeed = 300;
             lblTopSpeed.Text = maxSpeed.ToString();
         }
 
         private void rbFiat_CheckedChanged(object sender, EventArgs e)
         {
+            //lblCurrentSpeed.Text = Convert.ToString(0);
+            currentSpeed = 0;
             int maxSpeed = 168;
             lblTopSpeed.Text = maxSpeed.ToString();
         }
 
         private void rbSaab_CheckedChanged(object sender, EventArgs e)
         {
+            //lblCurrentSpeed.Text = Convert.ToString(0);
+            currentSpeed = 0;
             int maxSpeed = 150;
             lblTopSpeed.Text = maxSpeed.ToString();
         }
